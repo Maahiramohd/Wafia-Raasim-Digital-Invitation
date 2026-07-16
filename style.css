@@ -530,25 +530,6 @@ main#invitation {
   filter: saturate(0.85) contrast(1.05);
 }
 
-.venue-image-wrap {
-  border-radius: 22px;
-  overflow: hidden;
-  border: 1px solid var(--glass-border);
-  box-shadow: 0 14px 40px rgba(0,0,0,0.4);
-  margin-bottom: 18px;
-}
-
-.venue-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.8s var(--ease-lux);
-}
-
-.venue-image-wrap:hover .venue-image {
-  transform: scale(1.04);
-}
-
 .gold-button {
   display: inline-flex;
   align-items: center;
